@@ -51,7 +51,7 @@ void process_data_segment(int *data, int start, int end, int child_idx) {
     float avg = (float)sum / (end - start);  // Calculate average.
 
     // Open the output file and append the result.
-    int fd = open("output.txt", O_WRONLY | O_CREAT | O_APPEND, 0644);
+    int fd = open("output-DFS.txt", O_WRONLY | O_CREAT | O_APPEND, 0644);
     if (fd == -1) {
         perror("Error opening file");
         exit(EXIT_FAILURE);

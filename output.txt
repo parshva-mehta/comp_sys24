@@ -1,55 +1,85 @@
-Hi I'm process 173046 with return arg 9996 and my parent is 173040.
-I found the hidden key -49 in position A[3123].
-I found the hidden key -12 in position A[3242].
-I found the hidden key -26 in position A[3698].
-I found the hidden key -59 in position A[3783].
-Max=9996, Avg=4975.81
-Hi I'm process 173047 with return arg 10000 and my parent is 173040.
-I found the hidden key -40 in position A[4311].
-I found the hidden key -12 in position A[4776].
-I found the hidden key -54 in position A[4957].
-Max=10000, Avg=4968.41
-Hi I'm process 173048 with return arg 9990 and my parent is 173040.
-I found the hidden key -17 in position A[5677].
-I found the hidden key -30 in position A[5717].
-I found the hidden key -1 in position A[5809].
-Max=9990, Avg=4837.58
-Hi I'm process 173049 with return arg 9996 and my parent is 173040.
-I found the hidden key -60 in position A[6270].
-I found the hidden key -27 in position A[6328].
-Max=9996, Avg=5042.52
-Hi I'm process 173050 with return arg 9986 and my parent is 173040.
-I found the hidden key -54 in position A[7195].
-I found the hidden key -49 in position A[7595].
-I found the hidden key -6 in position A[7747].
-Max=9986, Avg=4919.67
-Hi I'm process 173051 with return arg 9999 and my parent is 173040.
-I found the hidden key -37 in position A[8067].
-I found the hidden key -19 in position A[8313].
-I found the hidden key -44 in position A[8585].
-I found the hidden key -7 in position A[8728].
+Hi I'm process 195681 with return arg 9983 and my parent is 195669.
 I found the hidden key -46 in position A[8916].
 I found the hidden key -55 in position A[8937].
 I found the hidden key -28 in position A[8941].
-Max=9999, Avg=5041.51
-Hi I'm process 173045 with return arg 9976 and my parent is 173040.
-I found the hidden key -60 in position A[2298].
-I found the hidden key -22 in position A[2489].
-I found the hidden key -18 in position A[2830].
-Max=9976, Avg=5056.04
-Hi I'm process 173053 with return arg 9983 and my parent is 173040.
 I found the hidden key -5 in position A[9445].
-Max=9983, Avg=5068.68
-Hi I'm process 173044 with return arg 10000 and my parent is 173040.
-I found the hidden key -25 in position A[1135].
-I found the hidden key -6 in position A[1186].
-I found the hidden key -6 in position A[1473].
-I found the hidden key -41 in position A[1857].
-Max=10000, Avg=4969.95
-Hi I'm process 173043 with return arg 9985 and my parent is 173040.
+Max=9983, Avg=5114.60
+Hi I'm process 195678 with return arg 9996 and my parent is 195669.
+I found the hidden key -60 in position A[6270].
+I found the hidden key -27 in position A[6328].
+I found the hidden key -54 in position A[7195].
+Max=9996, Avg=5038.00
+Hi I'm process 195676 with return arg 9990 and my parent is 195669.
+I found the hidden key -17 in position A[5677].
+I found the hidden key -30 in position A[5717].
+I found the hidden key -1 in position A[5809].
+Max=9990, Avg=4900.44
+Hi I'm process 195677 with return arg 0 and my parent is 195674.
+Max=0, Avg=0.00
+Hi I'm process 195687 with return arg 0 and my parent is 195672.
+Max=0, Avg=0.00
+Hi I'm process 195679 with return arg 0 and my parent is 195674.
+Max=0, Avg=0.00
+Hi I'm process 195682 with return arg 0 and my parent is 195674.
+Max=0, Avg=0.00
+Hi I'm process 195683 with return arg 0 and my parent is 195674.
+Max=0, Avg=0.00
+Hi I'm process 195670 with return arg 9998 and my parent is 195667.
 I found the hidden key -31 in position A[33].
 I found the hidden key -8 in position A[35].
 I found the hidden key -33 in position A[76].
 I found the hidden key -7 in position A[97].
 I found the hidden key -56 in position A[331].
-Max=9985, Avg=4909.24
+I found the hidden key -25 in position A[1135].
+I found the hidden key -6 in position A[1186].
+Max=9998, Avg=4896.90
+Hi I'm process 195684 with return arg 89905 and my parent is 195672.
+Max=89905, Avg=71.92
+Hi I'm process 195671 with return arg 10000 and my parent is 195667.
+I found the hidden key -6 in position A[1473].
+I found the hidden key -41 in position A[1857].
+I found the hidden key -60 in position A[2298].
+I found the hidden key -22 in position A[2489].
+Max=10000, Avg=5024.19
+Hi I'm process 195685 with return arg 0 and my parent is 195672.
+Max=0, Avg=0.00
+Hi I'm process 195686 with return arg 0 and my parent is 195672.
+Max=0, Avg=0.00
+Hi I'm process 195673 with return arg 9976 and my parent is 195667.
+I found the hidden key -18 in position A[2830].
+I found the hidden key -49 in position A[3123].
+I found the hidden key -12 in position A[3242].
+I found the hidden key -26 in position A[3698].
+Max=9976, Avg=4977.08
+Hi I'm process 195680 with return arg 9999 and my parent is 195669.
+I found the hidden key -49 in position A[7595].
+I found the hidden key -6 in position A[7747].
+I found the hidden key -37 in position A[8067].
+I found the hidden key -19 in position A[8313].
+I found the hidden key -44 in position A[8585].
+I found the hidden key -7 in position A[8728].
+Max=9999, Avg=4874.92
+Hi I'm process 195675 with return arg 10000 and my parent is 195667.
+I found the hidden key -59 in position A[3783].
+I found the hidden key -40 in position A[4311].
+I found the hidden key -12 in position A[4776].
+I found the hidden key -54 in position A[4957].
+Max=10000, Avg=5005.38
+Hi I'm process 195740 with return arg 0 and my parent is 195702.
+Hi I'm process 195741 with return arg 0 and my parent is 195702.
+Hi I'm process 195752 with return arg 0 and my parent is 195701.
+Max=0, Avg=0.00
+Hi I'm process 195753 with return arg 0 and my parent is 195701.
+Max=0, Avg=0.00
+Hi I'm process 195754 with return arg 0 and my parent is 195701.
+Max=0, Avg=0.00
+Hi I'm process 195755 with return arg 0 and my parent is 195701.
+Max=0, Avg=0.00
+Hi I'm process 195743 with return arg 0 and my parent is 195702.
+Max=0, Avg=0.00
+Hi I'm process 195744 with return arg 0 and my parent is 195703.
+Max=0, Avg=0.00
+Hi I'm process 195742 with return arg 0 and my parent is 195702.
+Max=0, Avg=0.00
+Max=0, Avg=0.00
+Max=0, Avg=0.00
