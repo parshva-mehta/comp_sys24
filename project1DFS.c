@@ -38,6 +38,8 @@ int *read_data(const char *filename, int *size) {
 
 // Function for a child process to find the max and hidden keys in its data segment.
 void process_data_segment(int *data, int start, int end, int child_idx) {
+    clock_t begin = clock(); // Start the clock to measure processing time
+
     int max = data[start];
     int count_hidden = 0;  // Count of hidden keys found.
     int sum = 0;           // Sum of values for average calculation.
@@ -48,15 +50,20 @@ void process_data_segment(int *data, int start, int end, int child_idx) {
         sum += data[i];
     }
 
-    float avg = (float)sum / (end - start);  // Calculate average.
+    float avg = (end > start) ? (float)sum / (end - start) : 0.0;
 
-    // Open the output file and append the result.
+    clock_t end_clock = clock(); // End the clock
+
+    // Calculate time taken in seconds
+    double time_spent = (double)(end_clock - begin) / CLOCKS_PER_SEC;
+
     int fd = open("output-DFS.txt", O_WRONLY | O_CREAT | O_APPEND, 0644);
     if (fd == -1) {
         perror("Error opening file");
         exit(EXIT_FAILURE);
     }
 
+    // Writing process data and findings to the file
     dprintf(fd, "Hi I'm process %d with return arg %d and my parent is %d.\n", getpid(), max, getppid());
     for (int i = start; i < end; ++i) {
         if (data[i] >= MIN_NEGATIVE_INT && data[i] <= -1) {
@@ -64,9 +71,12 @@ void process_data_segment(int *data, int start, int end, int child_idx) {
         }
     }
     dprintf(fd, "Max=%d, Avg=%.2f\n", max, avg);
+
+    // Writing the time taken by the process
+    dprintf(fd, "Process %d time taken: %f seconds\n", getpid(), time_spent);
+
     close(fd);
 }
-
 // Function to generate a file with L positive integers and H hidden negative keys
 void generate_and_hide_keys(const char* filename, int L, int H) {
     FILE* file = fopen(filename, "w");
@@ -108,6 +118,15 @@ void generate_and_hide_keys(const char* filename, int L, int H) {
 
 
 int main(int argc, char* argv[]) {
+    FILE* outputFile = fopen("output-DFS.txt", "w");
+    if (!outputFile) {
+        perror("Error opening output file");
+        exit(EXIT_FAILURE);
+    }
+    fclose(outputFile);
+
+
+    
     if (argc != 4) {
         fprintf(stderr, "Usage: %s <L> <H> <PN>\n", argv[0]);
         return 1;

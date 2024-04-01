@@ -1,57 +1,61 @@
-Hi I'm process 189055 with return arg 9998 and my parent is 189053.
-Hi I'm process 189056 with return arg 9996 and my parent is 189053.
-I found the hidden key -51 in position A[2648].
-I found the hidden key -54 in position A[3180].
-I found the hidden key -41 in position A[5364].
-I found the hidden key -38 in position A[3204].
-I found the hidden key -37 in position A[5541].
-I found the hidden key -53 in position A[3298].
-I found the hidden key -43 in position A[5702].
-I found the hidden key -19 in position A[3340].
-I found the hidden key -24 in position A[5938].
-I found the hidden key -51 in position A[3424].
-I found the hidden key -36 in position A[3470].
-I found the hidden key -53 in position A[6565].
-I found the hidden key -21 in position A[3591].
-I found the hidden key -29 in position A[6644].
-I found the hidden key -32 in position A[3727].
-I found the hidden key -32 in position A[6713].
-I found the hidden key -52 in position A[3741].
-I found the hidden key -27 in position A[3876].
-I found the hidden key -13 in position A[7253].
-I found the hidden key -4 in position A[4147].
-I found the hidden key -16 in position A[4193].
-I found the hidden key -9 in position A[4514].
-Max=9996, Avg=4995.11
-I found the hidden key -4 in position A[4701].
-I found the hidden key -48 in position A[4747].
-Max=9998, Avg=4992.51
-Hi I'm process 189057 with return arg 9998 and my parent is 189053.
-I found the hidden key -42 in position A[7522].
-I found the hidden key -16 in position A[7793].
-I found the hidden key -5 in position A[8693].
-Hi I'm process 189054 with return arg 9990 and my parent is 189053.
-I found the hidden key -37 in position A[9118].
-I found the hidden key -17 in position A[42].
-I found the hidden key -6 in position A[9199].
-I found the hidden key -7 in position A[455].
-I found the hidden key -1 in position A[9512].
-I found the hidden key -20 in position A[583].
-I found the hidden key -47 in position A[9579].
-I found the hidden key -35 in position A[791].
-I found the hidden key -9 in position A[9585].
-I found the hidden key -36 in position A[928].
-I found the hidden key -31 in position A[9972].
-I found the hidden key -36 in position A[1289].
-I found the hidden key -50 in position A[1351].
-Max=9998, Avg=4988.80
-I found the hidden key -43 in position A[1502].
-I found the hidden key -10 in position A[1704].
-I found the hidden key -8 in position A[1878].
-I found the hidden key -4 in position A[1950].
-I found the hidden key -28 in position A[2099].
-I found the hidden key -23 in position A[2171].
-I found the hidden key -1 in position A[2174].
-I found the hidden key -37 in position A[2405].
-I found the hidden key -43 in position A[2498].
-Max=9990, Avg=4941.47
+Hi I'm process 211333 with return arg 9996 and my parent is 211331.
+I found the hidden key -38 in position A[2861].
+I found the hidden key -3 in position A[2908].
+I found the hidden key -1 in position A[3264].
+I found the hidden key -27 in position A[3438].
+I found the hidden key -41 in position A[3493].
+Hi I'm process 211332 with return arg 10000 and my parent is 211331.
+I found the hidden key -1 in position A[3668].
+I found the hidden key -48 in position A[220].
+I found the hidden key -60 in position A[4209].
+I found the hidden key -43 in position A[493].
+I found the hidden key -33 in position A[4351].
+I found the hidden key -45 in position A[800].
+I found the hidden key -53 in position A[4700].
+I found the hidden key -28 in position A[929].
+I found the hidden key -5 in position A[4724].
+I found the hidden key -51 in position A[981].
+I found the hidden key -20 in position A[1050].
+I found the hidden key -60 in position A[1086].
+I found the hidden key -34 in position A[1240].
+Max=9996, Avg=4989.39
+I found the hidden key -47 in position A[1463].
+Process 211333 time taken: 0.000021 seconds
+I found the hidden key -45 in position A[1555].
+I found the hidden key -38 in position A[1760].
+I found the hidden key -50 in position A[2090].
+I found the hidden key -55 in position A[2101].
+I found the hidden key -42 in position A[2117].
+I found the hidden key -13 in position A[2177].
+Max=10000, Avg=4940.21
+Process 211332 time taken: 0.000020 seconds
+Hi I'm process 211334 with return arg 9995 and my parent is 211331.
+I found the hidden key -11 in position A[5061].
+I found the hidden key -1 in position A[5074].
+I found the hidden key -1 in position A[5211].
+I found the hidden key -20 in position A[5380].
+I found the hidden key -36 in position A[5627].
+I found the hidden key -59 in position A[5707].
+I found the hidden key -42 in position A[6072].
+I found the hidden key -45 in position A[6183].
+I found the hidden key -4 in position A[6389].
+I found the hidden key -52 in position A[6493].
+I found the hidden key -5 in position A[7136].
+I found the hidden key -59 in position A[7175].
+I found the hidden key -57 in position A[7280].
+Max=9995, Avg=4966.01
+Process 211334 time taken: 0.000019 seconds
+Hi I'm process 211335 with return arg 10000 and my parent is 211331.
+I found the hidden key -2 in position A[7522].
+I found the hidden key -15 in position A[7554].
+I found the hidden key -38 in position A[8379].
+I found the hidden key -3 in position A[8544].
+I found the hidden key -26 in position A[8780].
+I found the hidden key -4 in position A[9083].
+I found the hidden key -28 in position A[9128].
+I found the hidden key -39 in position A[9280].
+I found the hidden key -24 in position A[9350].
+I found the hidden key -21 in position A[9425].
+I found the hidden key -33 in position A[9873].
+Max=10000, Avg=5055.70
+Process 211335 time taken: 0.000016 seconds
