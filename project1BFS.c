@@ -41,7 +41,9 @@ int *read_data(const char *filename, int *size) {
 }
 #include <time.h>
 
-void process_data_segment(int *data, int start, int end, int process_id) {
+void process_data_segment(int *data, int start, int end, int process_id, int write_pipe) {
+    printf("Child %d (PID: %d) started processing data segment from %d to %d.\n", process_id, getpid(), start, end); // Log when child starts
+
     clock_t begin = clock(); // Start the clock to measure processing time
 
     int max = data[start];
@@ -62,6 +64,14 @@ void process_data_segment(int *data, int start, int end, int process_id) {
     // Calculate time taken in seconds
     double time_spent = (double)(end_clock - begin) / CLOCKS_PER_SEC;
 
+
+    for (int i = start; i < end; ++i) {
+        if (data[i] >= HIDDEN_KEY_LOWER_BOUND && data[i] <= HIDDEN_KEY_UPPER_BOUND) {
+            // Write to pipe when a key is found
+            write(write_pipe, &data[i], sizeof(int));
+        }
+    }
+
     int fd = open("output-BFS.txt", O_WRONLY | O_CREAT | O_APPEND, 0644);
     if (fd == -1) {
         perror("Error opening file");
@@ -79,11 +89,14 @@ void process_data_segment(int *data, int start, int end, int process_id) {
 
     // Writing the time taken by the process
     dprintf(fd, "Process %d time taken: %f seconds\n", process_id, time_spent);
+    printf("Child %d (PID: %d) finished processing. Max=%d, Avg=%.2f, Time taken: %f seconds\n", process_id, getpid(), max, avg, time_spent); // Log when child ends
 
     close(fd);
+    close(write_pipe); // Close the write end of the pipe
+
 }
 
-void bfs_process_data(int *data, int size, int current_level, int max_levels, int idx_in_level) {
+void bfs_process_data(int *data, int size, int current_level, int max_levels, int idx_in_level, int write_pipe) {
     int num_processes_at_max_level = 1 << max_levels; // Total number of processes at the max level
     int base_segment_size = size / num_processes_at_max_level;
     int remaining_elements = size % num_processes_at_max_level;
@@ -93,7 +106,7 @@ void bfs_process_data(int *data, int size, int current_level, int max_levels, in
 
     if (current_level == max_levels) {
         if (start < size) { // Ensure the process has data to process
-            process_data_segment(data, start, end, getpid());
+            process_data_segment(data, start, end, getpid(), write_pipe);
         }
         return;
     }
@@ -101,16 +114,16 @@ void bfs_process_data(int *data, int size, int current_level, int max_levels, in
     for (int i = 0; i < MAX_CHILDREN; ++i) {
         pid_t pid = fork();
         if (pid == 0) { // Child process
-            int new_idx_in_level = idx_in_level * MAX_CHILDREN + i;
-            bfs_process_data(data, size, current_level + 1, max_levels, new_idx_in_level);
+            bfs_process_data(data, size, current_level + 1, max_levels, idx_in_level * MAX_CHILDREN + i, write_pipe);
             exit(0);
         } else if (pid > 0) {
-            // Parent process
+            // Parent process logs child creation
         } else {
             perror("fork");
             exit(EXIT_FAILURE);
         }
     }
+
 
     // Parent waits for all children to complete
     for (int i = 0; i < MAX_CHILDREN; ++i) {
@@ -144,12 +157,33 @@ int main(int argc, char *argv[]) {
         fprintf(stderr, "Invalid input: L must be >= 1 and 30 < H < 60, H must be <= L\n");
         return 1;
     }
-
+    
     int size;
     int *data = read_data("input.txt", &size);
 
-    bfs_process_data(data, size, 0, MAX_TREE_HEIGHT, 0);
+    int pipefd[2];
+    if (pipe(pipefd) == -1) {
+        perror("pipe");
+        exit(EXIT_FAILURE);
+    }
 
-    free(data);
+    int key_count = 0, read_key;
+
+    // Fork the first set of processes
+    bfs_process_data(data, size, 0, MAX_TREE_HEIGHT, 0, pipefd[1]);
+    
+    close(pipefd[1]); // Close the write end of the pipe in the parent
+
+    // Parent process reads from the pipe
+    while (key_count < L && read(pipefd[0], &read_key, sizeof(int)) > 0) {
+        key_count++;
+        if (key_count >= L) {
+            printf("Success: Found %d keys.\n", L);
+            break;
+        }
+    }
+
+    // Close the read end of the pipe
+    close(pipefd[0]);
     return 0;
 }
