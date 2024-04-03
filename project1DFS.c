@@ -29,6 +29,13 @@ int main(int argc, char* argv[]) {
     }
 
     generate_and_hide_keys("input.txt", L, H);
+
+    int fd_clear = open("output-DFS.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
+    if (fd_clear == -1) {
+        perror("Error opening output file");
+        exit(EXIT_FAILURE);
+    }
+    close(fd_clear);
     int size;
     int *data = read_data("input.txt", &size);
     int segment_size = size / PN;
@@ -59,20 +66,30 @@ int main(int argc, char* argv[]) {
 }
 
 void process_data_segment(int *data, int start, int end, int child_idx) {
-    clock_t begin = clock();
-    printf("Child %d (PID: %d) started processing data segment from %d to %d.\n", child_idx, getpid(), start, end);
+    int fd = open("output-DFS.txt", O_WRONLY | O_CREAT | O_APPEND, 0644);
+    if (fd == -1) {
+        perror("Error opening output file");
+        exit(EXIT_FAILURE);
+    }
 
+    clock_t begin = clock();
     int max = data[start];
     int sum = 0;
     for (int i = start; i < end; ++i) {
         if (data[i] > max) max = data[i];
+        if (data[i] >= MIN_NEGATIVE_INT && data[i] <= -1) {
+            dprintf(fd, "I found the hidden key %d in position A[%d].\n", data[i], i);
+        }
         sum += data[i];
     }
     float avg = (end > start) ? (float)sum / (end - start) : 0.0;
     clock_t end_clock = clock();
     double time_spent = (double)(end_clock - begin) / CLOCKS_PER_SEC;
 
-    printf("Child %d (PID: %d) finished processing. Max=%d, Avg=%.2f, Time taken: %f seconds\n", child_idx, getpid(), max, avg, time_spent);
+    dprintf(fd, "Hi I'm process %d with return arg %d and my parent is %d.\nMax=%d, Avg=%.2f\nProcess %d time taken: %f seconds\n", 
+            getpid(), max, getppid(), max, avg, getpid(), time_spent);
+
+    close(fd);
 }
 
 int *read_data(const char *filename, int *size) {
