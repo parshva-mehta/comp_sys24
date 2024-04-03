@@ -78,7 +78,7 @@ void process_data_segment(int *data, int start, int end, int child_idx) {
     for (int i = start; i < end; ++i) {
         if (data[i] > max) max = data[i];
         if (data[i] >= MIN_NEGATIVE_INT && data[i] <= -1) {
-            dprintf(fd, "I found the hidden key %d in position A[%d].\n", data[i], i);
+            dprintf(fd, "I am process %d and I found the hidden key %d in position A[%d].\n", getpid(), data[i], i);
         }
         sum += data[i];
     }
