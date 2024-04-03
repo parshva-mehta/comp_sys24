@@ -1,0 +1,57 @@
+Hi I'm process 51925 with return arg 9997 and my parent is 51924.
+Hi I'm process 51928 with return arg 9999 and my parent is 51924.
+Hi I'm process 51926 with return arg 10000 and my parent is 51924.
+Hi I'm process 51927 with return arg 9993 and my parent is 51924.
+I found the hidden key -45 in position A[222].
+I found the hidden key -24 in position A[7756].
+I found the hidden key -1 in position A[2660].
+I found the hidden key -13 in position A[5115].
+I found the hidden key -19 in position A[422].
+I found the hidden key -21 in position A[7795].
+I found the hidden key -13 in position A[5245].
+I found the hidden key -37 in position A[2807].
+I found the hidden key -47 in position A[486].
+I found the hidden key -11 in position A[5521].
+I found the hidden key -34 in position A[8095].
+I found the hidden key -59 in position A[2858].
+I found the hidden key -32 in position A[542].
+I found the hidden key -10 in position A[5653].
+I found the hidden key -22 in position A[8323].
+I found the hidden key -1 in position A[3838].
+I found the hidden key -14 in position A[889].
+I found the hidden key -4 in position A[3950].
+I found the hidden key -57 in position A[8460].
+I found the hidden key -24 in position A[5737].
+I found the hidden key -28 in position A[1200].
+I found the hidden key -22 in position A[4097].
+I found the hidden key -50 in position A[6087].
+I found the hidden key -16 in position A[8939].
+I found the hidden key -31 in position A[1219].
+I found the hidden key -1 in position A[4133].
+I found the hidden key -24 in position A[6602].
+I found the hidden key -27 in position A[9235].
+I found the hidden key -28 in position A[2041].
+I found the hidden key -31 in position A[4147].
+I found the hidden key -58 in position A[6844].
+I found the hidden key -47 in position A[9306].
+I found the hidden key -13 in position A[2066].
+I found the hidden key -39 in position A[4267].
+I found the hidden key -39 in position A[6901].
+I found the hidden key -30 in position A[9499].
+I found the hidden key -26 in position A[2312].
+I found the hidden key -43 in position A[4360].
+I found the hidden key -58 in position A[7032].
+I found the hidden key -35 in position A[9756].
+I found the hidden key -32 in position A[2495].
+I found the hidden key -23 in position A[7077].
+I found the hidden key -29 in position A[4549].
+I found the hidden key -39 in position A[9849].
+Max=9997, Avg=4999.03
+I found the hidden key -41 in position A[7102].
+I found the hidden key -27 in position A[4630].
+I found the hidden key -8 in position A[9986].
+I found the hidden key -55 in position A[7476].
+I found the hidden key -8 in position A[4746].
+Max=9999, Avg=4982.37
+Max=9993, Avg=4979.11
+Max=10000, Avg=4958.36
