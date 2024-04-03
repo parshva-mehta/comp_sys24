@@ -1,61 +1,60 @@
-I found the hidden key -58 in position A[377].
-I found the hidden key -26 in position A[419].
-I found the hidden key -21 in position A[1385].
-I found the hidden key -3 in position A[1401].
-I found the hidden key -17 in position A[1620].
-I found the hidden key -55 in position A[1666].
-I found the hidden key -32 in position A[1700].
-I found the hidden key -22 in position A[1709].
-I found the hidden key -27 in position A[1812].
-I found the hidden key -21 in position A[1820].
-I found the hidden key -13 in position A[1919].
-I found the hidden key -12 in position A[1944].
-I found the hidden key -29 in position A[2124].
-I found the hidden key -34 in position A[2134].
-I found the hidden key -50 in position A[2255].
-I found the hidden key -48 in position A[2404].
-Hi I'm process 323285 with return arg 9997 and my parent is 323281.
-Max=9997, Avg=4967.00
-Process 323285 time taken: 0.000066 seconds
-I found the hidden key -18 in position A[7700].
-I found the hidden key -52 in position A[7802].
-I found the hidden key -29 in position A[7915].
-I found the hidden key -1 in position A[8622].
-I found the hidden key -18 in position A[8673].
-I found the hidden key -48 in position A[8755].
-I found the hidden key -18 in position A[8785].
-I found the hidden key -55 in position A[9363].
-I found the hidden key -35 in position A[9554].
-I found the hidden key -13 in position A[9704].
-I found the hidden key -38 in position A[9856].
-I found the hidden key -44 in position A[9924].
-Hi I'm process 323288 with return arg 10000 and my parent is 323281.
-Max=10000, Avg=4957.64
-Process 323288 time taken: 0.000049 seconds
-I found the hidden key -28 in position A[5147].
-I found the hidden key -50 in position A[5468].
-I found the hidden key -60 in position A[5522].
-I found the hidden key -57 in position A[5767].
-I found the hidden key -27 in position A[5996].
-I found the hidden key -33 in position A[6297].
-I found the hidden key -38 in position A[6591].
-I found the hidden key -42 in position A[6646].
-I found the hidden key -3 in position A[6734].
-I found the hidden key -25 in position A[7247].
-Hi I'm process 323287 with return arg 9999 and my parent is 323281.
-Max=9999, Avg=5010.76
-Process 323287 time taken: 0.000043 seconds
-I found the hidden key -49 in position A[2953].
-I found the hidden key -19 in position A[3096].
-I found the hidden key -23 in position A[3225].
-I found the hidden key -10 in position A[3385].
-I found the hidden key -59 in position A[3395].
-I found the hidden key -18 in position A[3434].
-I found the hidden key -25 in position A[3519].
-I found the hidden key -19 in position A[3582].
-I found the hidden key -16 in position A[3661].
-I found the hidden key -17 in position A[4821].
-I found the hidden key -50 in position A[4933].
-Hi I'm process 323286 with return arg 9999 and my parent is 323281.
-Max=9999, Avg=4928.93
-Process 323286 time taken: 0.000042 seconds
+I am process 344643 and I found the hidden key -2 in position A[138].
+I am process 344643 and I found the hidden key -1 in position A[141].
+I am process 344643 and I found the hidden key -18 in position A[336].
+I am process 344643 and I found the hidden key -11 in position A[398].
+I am process 344643 and I found the hidden key -56 in position A[842].
+I am process 344643 and I found the hidden key -33 in position A[892].
+I am process 344643 and I found the hidden key -56 in position A[971].
+I am process 344643 and I found the hidden key -43 in position A[1107].
+I am process 344643 and I found the hidden key -22 in position A[1113].
+I am process 344643 and I found the hidden key -36 in position A[1182].
+I am process 344643 and I found the hidden key -47 in position A[1234].
+I am process 344643 and I found the hidden key -49 in position A[1263].
+I am process 344643 and I found the hidden key -57 in position A[1394].
+I am process 344643 and I found the hidden key -50 in position A[1422].
+I am process 344643 and I found the hidden key -51 in position A[2153].
+I am process 344644 and I found the hidden key -3 in position A[2518].
+Hi I'm process 344643 with return arg 9998 and my parent is 344642.
+Max=9998, Avg=5090.60
+Process 344643 time taken: 0.000072 seconds
+I am process 344644 and I found the hidden key -6 in position A[2728].
+I am process 344644 and I found the hidden key -42 in position A[2891].
+I am process 344644 and I found the hidden key -2 in position A[3192].
+I am process 344644 and I found the hidden key -18 in position A[3915].
+I am process 344644 and I found the hidden key -50 in position A[4299].
+I am process 344644 and I found the hidden key -50 in position A[4401].
+I am process 344644 and I found the hidden key -55 in position A[4669].
+I am process 344644 and I found the hidden key -1 in position A[4864].
+Hi I'm process 344644 with return arg 10000 and my parent is 344642.
+Max=10000, Avg=4871.31
+Process 344644 time taken: 0.000045 seconds
+I am process 344645 and I found the hidden key -28 in position A[5289].
+I am process 344645 and I found the hidden key -23 in position A[5534].
+I am process 344645 and I found the hidden key -48 in position A[5538].
+I am process 344645 and I found the hidden key -55 in position A[5540].
+I am process 344645 and I found the hidden key -22 in position A[6159].
+I am process 344645 and I found the hidden key -48 in position A[6187].
+I am process 344645 and I found the hidden key -3 in position A[6386].
+I am process 344645 and I found the hidden key -25 in position A[6648].
+I am process 344645 and I found the hidden key -10 in position A[6974].
+Hi I'm process 344645 with return arg 9999 and my parent is 344642.
+Max=9999, Avg=4921.13
+Process 344645 time taken: 0.000040 seconds
+I am process 344646 and I found the hidden key -33 in position A[7925].
+I am process 344646 and I found the hidden key -35 in position A[8016].
+I am process 344646 and I found the hidden key -42 in position A[8329].
+I am process 344646 and I found the hidden key -23 in position A[8336].
+I am process 344646 and I found the hidden key -1 in position A[8452].
+I am process 344646 and I found the hidden key -57 in position A[8458].
+I am process 344646 and I found the hidden key -57 in position A[8534].
+I am process 344646 and I found the hidden key -39 in position A[8579].
+I am process 344646 and I found the hidden key -59 in position A[8760].
+I am process 344646 and I found the hidden key -55 in position A[8926].
+I am process 344646 and I found the hidden key -23 in position A[9033].
+I am process 344646 and I found the hidden key -26 in position A[9187].
+I am process 344646 and I found the hidden key -21 in position A[9311].
+I am process 344646 and I found the hidden key -15 in position A[9907].
+I am process 344646 and I found the hidden key -4 in position A[9914].
+Hi I'm process 344646 with return arg 9998 and my parent is 344642.
+Max=9998, Avg=4962.25
+Process 344646 time taken: 0.000052 seconds
