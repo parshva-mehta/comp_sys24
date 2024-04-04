@@ -1,0 +1,71 @@
+Hi I'm process 55512 with return arg 10000 and my parent is 55489.
+Hi I'm process 55503 with return arg 9997 and my parent is 55489.
+Hi I'm process 55525 with return arg 9994 and my parent is 55492.
+Hi I'm process 55517 with return arg 9997 and my parent is 55492.
+Hi I'm process 55496 with return arg 9978 and my parent is 55489.
+Hi I'm process 55502 with return arg 9995 and my parent is 55492.
+Hi I'm process 55519 with return arg 9980 and my parent is 55489.
+I am process 55512 and I found the hidden key -49 in position A[2518].
+I am process 55525 and I found the hidden key -37 in position A[9221].
+I am process 55503 and I found the hidden key -22 in position A[1298].
+I am process 55517 and I found the hidden key -18 in position A[7635].
+Hi I'm process 55509 with return arg 9997 and my parent is 55492.
+I am process 55519 and I found the hidden key -14 in position A[3903].
+I am process 55512 and I found the hidden key -41 in position A[2543].
+I am process 55496 and I found the hidden key -3 in position A[369].
+I am process 55525 and I found the hidden key -44 in position A[9548].
+I am process 55517 and I found the hidden key -8 in position A[8555].
+I am process 55503 and I found the hidden key -10 in position A[1484].
+I am process 55509 and I found the hidden key -14 in position A[6394].
+I am process 55502 and I found the hidden key -13 in position A[5007].
+I am process 55519 and I found the hidden key -55 in position A[3998].
+I am process 55512 and I found the hidden key -37 in position A[2549].
+I am process 55496 and I found the hidden key -14 in position A[727].
+I am process 55525 and I found the hidden key -56 in position A[9740].
+I am process 55517 and I found the hidden key -37 in position A[8663].
+I am process 55509 and I found the hidden key -34 in position A[6911].
+I am process 55519 and I found the hidden key -45 in position A[4692].
+I am process 55503 and I found the hidden key -31 in position A[1647].
+I am process 55502 and I found the hidden key -54 in position A[5853].
+I am process 55512 and I found the hidden key -4 in position A[2623].
+I am process 55496 and I found the hidden key -1 in position A[730].
+Max=9994, Avg=4965.90
+I am process 55517 and I found the hidden key -2 in position A[8684].
+I am process 55503 and I found the hidden key -12 in position A[1713].
+I am process 55519 and I found the hidden key -11 in position A[4909].
+I am process 55509 and I found the hidden key -56 in position A[7048].
+I am process 55512 and I found the hidden key -14 in position A[2687].
+I am process 55502 and I found the hidden key -3 in position A[5879].
+Process 55525 time taken: 0.000007 seconds
+I am process 55496 and I found the hidden key -30 in position A[770].
+I am process 55517 and I found the hidden key -10 in position A[8715].
+I am process 55503 and I found the hidden key -45 in position A[1792].
+I am process 55519 and I found the hidden key -14 in position A[4990].
+I am process 55509 and I found the hidden key -31 in position A[7075].
+I am process 55512 and I found the hidden key -25 in position A[2693].
+Max=9995, Avg=4938.51
+I am process 55496 and I found the hidden key -31 in position A[795].
+Max=9997, Avg=5005.30
+Max=9980, Avg=4964.84
+I am process 55503 and I found the hidden key -7 in position A[1928].
+I am process 55509 and I found the hidden key -16 in position A[7139].
+Process 55502 time taken: 0.000008 seconds
+I am process 55512 and I found the hidden key -26 in position A[3140].
+I am process 55496 and I found the hidden key -23 in position A[797].
+Process 55517 time taken: 0.000008 seconds
+I am process 55503 and I found the hidden key -25 in position A[2108].
+I am process 55509 and I found the hidden key -52 in position A[7327].
+Process 55519 time taken: 0.000011 seconds
+I am process 55512 and I found the hidden key -38 in position A[3324].
+Max=9978, Avg=4967.04
+Max=10000, Avg=4859.19
+I am process 55509 and I found the hidden key -1 in position A[7394].
+Process 55496 time taken: 0.000006 seconds
+I am process 55503 and I found the hidden key -59 in position A[2258].
+Process 55512 time taken: 0.000007 seconds
+I am process 55509 and I found the hidden key -50 in position A[7483].
+I am process 55503 and I found the hidden key -21 in position A[2381].
+Max=9997, Avg=5060.06
+Max=9997, Avg=5024.55
+Process 55503 time taken: 0.000007 seconds
+Process 55509 time taken: 0.000011 seconds
