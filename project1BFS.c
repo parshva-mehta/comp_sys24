@@ -82,7 +82,7 @@ void process_data_segment(int *data, int start, int end, int process_id, int wri
     dprintf(fd, "Hi I'm process %d with return arg %d and my parent is %d.\n", process_id, max, getppid());
     for (int i = start; i < end; ++i) {
         if (data[i] >= HIDDEN_KEY_LOWER_BOUND && data[i] <= HIDDEN_KEY_UPPER_BOUND) {
-            dprintf(fd, "I am process %d and I found the hidden key %d in position A[%d].\n", getPid(), data[i], i);
+            dprintf(fd, "I am process %d and I found the hidden key %d in position A[%d].\n", getpid(), data[i], i);
         }
     }
     dprintf(fd, "Max=%d, Avg=%.2f\n", max, avg);
